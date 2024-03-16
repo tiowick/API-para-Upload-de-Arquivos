@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34408.163
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudStorage.API", "CloudStorage.API\CloudStorage.API.csproj", "{DF4D45D5-BF94-4F85-941E-940D5762A0F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudStorage.Application", "CloudStorage.Application\CloudStorage.Application.csproj", "{FC4B0E86-330D-4DA5-A987-D30815B1973A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudStorage.Infraestructure", "CloudStorage.Infraestructure\CloudStorage.Infraestructure.csproj", "{EB6DEC38-2663-4F9F-8AB9-A3D9AA3F84D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudStorage.Domain", "CloudStorage.Domain\CloudStorage.Domain.csproj", "{CAF53ABA-E2D8-4E82-A8F2-EDA18A5D2D2C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DF4D45D5-BF94-4F85-941E-940D5762A0F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF4D45D5-BF94-4F85-941E-940D5762A0F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF4D45D5-BF94-4F85-941E-940D5762A0F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF4D45D5-BF94-4F85-941E-940D5762A0F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC4B0E86-330D-4DA5-A987-D30815B1973A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC4B0E86-330D-4DA5-A987-D30815B1973A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC4B0E86-330D-4DA5-A987-D30815B1973A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC4B0E86-330D-4DA5-A987-D30815B1973A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB6DEC38-2663-4F9F-8AB9-A3D9AA3F84D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB6DEC38-2663-4F9F-8AB9-A3D9AA3F84D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB6DEC38-2663-4F9F-8AB9-A3D9AA3F84D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB6DEC38-2663-4F9F-8AB9-A3D9AA3F84D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CAF53ABA-E2D8-4E82-A8F2-EDA18A5D2D2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAF53ABA-E2D8-4E82-A8F2-EDA18A5D2D2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAF53ABA-E2D8-4E82-A8F2-EDA18A5D2D2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAF53ABA-E2D8-4E82-A8F2-EDA18A5D2D2C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {27EBCCA6-3A5B-4E9A-872F-966199D5EC02}
+	EndGlobalSection
+EndGlobal
